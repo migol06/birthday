@@ -3,10 +3,10 @@ import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 
 function Home() {
-    const [visibleCount, setVisibleCount] = useState(1)
-    const navigate = useNavigate()
-    const sentences = [
-    "Hi John Doe",
+  const [visibleCount, setVisibleCount] = useState(1)
+  const navigate = useNavigate()
+  const sentences = [
+    "Hi Love",
     "I have something to show you:)"
   ]
 
@@ -18,8 +18,8 @@ function Home() {
     }
   }
   return (
-    <div 
-      className="flex flex-col min-h-screen  cursor-pointer w-full items-center justify-center over-flow-clip" 
+    <div
+      className="flex flex-col min-h-screen  cursor-pointer w-full items-center justify-center over-flow-clip"
       onClick={handleClick}
     >
       <div className="w-[90%] max-w-[400px] px-8">

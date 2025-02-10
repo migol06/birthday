@@ -10,23 +10,23 @@ function Present() {
         </h1>
       </div>
       <div className="birthday-gift">
-        <input id='click' type='checkbox'/>
+        <input id='click' type='checkbox' />
         <label className='gift' htmlFor='click'>
           <div className="gift-top"></div>
           <div className="gift-bottom"></div>
           <div id="raffle-red" className="entry raffle raffle-1">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Pedicure</span>
+              <span className="ticket-text">Free<br />Hug</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-2">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Massage</span>
+              <span className="ticket-text">Free<br />Massage</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-3">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Dinner</span>
+              <span className="ticket-text">Free<br />Dinner Lol</span>
             </div>
           </div>
         </label>
