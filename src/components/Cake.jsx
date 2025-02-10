@@ -72,6 +72,11 @@ function Cake() {
   return (
     <>
       <div className="bg-black/80 h-screen w-screen flex items-center justify-center overflow-hidden relative">
+        {!candlesBlownOut && (
+          <div className="absolute top-2 text-gray-200 text-3xl">
+            <p>Blow the candle</p>
+          </div>
+        )}
         {candlesBlownOut && (
           <div
             className="absolute inset-0 bg-cover bg-center z-50"
