@@ -5,6 +5,9 @@ import img1 from "../assets/first_pic.jpg";
 import img2 from "../assets/second_pic.jpg";
 import img3 from "../assets/third_pic.jpg";
 import img4 from "../assets/fourth_pic.jpg";
+import img5 from "../assets/sixth.jpg";
+import img6 from "../assets/seventh.jpg";
+import img7 from "../assets/fifth.jpg";
 import { Link } from 'react-router-dom';
 import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
@@ -13,9 +16,9 @@ const images = [
   img2,
   img3,
   img4,
-  img3,
-  img4,
-
+  img5,
+  img6,
+  img7
 ];
 function Picture() {
   const [loadedImages, setLoadedImages] = useState(0);
